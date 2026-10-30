@@ -1,0 +1,702 @@
+[
+  {
+    "ID": "3D_Print_With_3DBuilder",
+    "Name": "3D Print with 3D Builder Context Menu",
+    "MinBuild": 14393,
+    "MaxBuild": 99999,
+    "Path": "HKCR:\\SystemFileAssociations\\.bmp\\Shell\\T3D Print",
+    "ValueName": "",
+    "ValueData": "@%SystemRoot%\\system32\\PrintDialogs3D.dll,-5039",
+    "Type": "String",
+    "SubKeys": [
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.bmp\\Shell\\T3D Print\\Command",
+        "ValueName": "DelegateExecute",
+        "ValueData": "{1A68CF90-753A-4523-A4A4-40CAB4BC6EFF}",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.jpg\\Shell\\T3D Print",
+        "ValueName": "",
+        "ValueData": "@%SystemRoot%\\system32\\PrintDialogs3D.dll,-5039",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.jpg\\Shell\\T3D Print\\Command",
+        "ValueName": "DelegateExecute",
+        "ValueData": "{1A68CF90-753A-4523-A4A4-40CAB4BC6EFF}",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.png\\Shell\\T3D Print",
+        "ValueName": "",
+        "ValueData": "@%SystemRoot%\\system32\\PrintDialogs3D.dll,-5039",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.png\\Shell\\T3D Print\\Command",
+        "ValueName": "DelegateExecute",
+        "ValueData": "{1A68CF90-753A-4523-A4A4-40CAB4BC6EFF}",
+        "Type": "String"
+      }
+    ]
+  },
+  {
+    "ID": "Block_GiveAccessTo",
+    "Name": "Block 'Give Access To' Context Menu",
+    "MinBuild": 10240,
+    "MaxBuild": 99999,
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Shell Extensions\\Blocked",
+    "ValueName": "{596AB062-B4D2-4215-9F74-E9109B0A8153}",
+    "ValueData": "",
+    "Type": "String"
+  },
+  {
+    "ID": "Block_Mega",
+    "Name": "Block MEGA Shell Extension",
+    "MinBuild": 7601,
+    "MaxBuild": 99999,
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Shell Extensions\\Blocked",
+    "ValueName": "{0229E5E7-09E9-45CF-9228-0228EC7D5F17}",
+    "ValueData": "",
+    "Type": "String"
+  },
+  {
+    "ID": "Block_NotepadPlusPlus",
+    "Name": "Block Notepad++ Shell Extension",
+    "MinBuild": 7601,
+    "MaxBuild": 99999,
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Shell Extensions\\Blocked",
+    "ValueName": "{B298D29A-A6ED-11DE-BA8C-A68E55D89593}",
+    "ValueData": "",
+    "Type": "String"
+  },
+  {
+    "ID": "Block_RestorePrevious",
+    "Name": "Block 'Restore Previous Versions' Context Menu",
+    "MinBuild": 7601,
+    "MaxBuild": 99999,
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Shell Extensions\\Blocked",
+    "ValueName": "{f81e9010-6ea4-11ce-a7ff-00aa003ca9f6}",
+    "ValueData": "",
+    "Type": "String"
+  },
+  {
+    "ID": "Block_WinDefenderScan",
+    "Name": "Block 'Scan with Windows Defender' Context Menu",
+    "MinBuild": 10240,
+    "MaxBuild": 99999,
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Shell Extensions\\Blocked",
+    "ValueName": "{09A47860-11B0-4DA5-AFA5-26D86198A780}",
+    "ValueData": "",
+    "Type": "String"
+  },
+  {
+    "ID": "Camera_Roll_Folder",
+    "Name": "Camera Roll Folder Registration",
+    "MinBuild": 10240,
+    "MaxBuild": 99999,
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{AB5FB87B-7CE2-4F83-915D-550846C9537B}",
+    "ValueName": "Name",
+    "ValueData": "Camera Roll",
+    "Type": "String",
+    "SubKeys": [
+      {
+        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{AB5FB87B-7CE2-4F83-915D-550846C9537B}",
+        "ValueName": "Category",
+        "ValueData": 4,
+        "Type": "DWord"
+      },
+      {
+        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{AB5FB87B-7CE2-4F83-915D-550846C9537B}",
+        "ValueName": "InitFolderHandler",
+        "ValueData": "{B26388EA-AD62-430f-AF5C-CFA63BFE94A6}",
+        "Type": "String"
+      },
+      {
+        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{AB5FB87B-7CE2-4F83-915D-550846C9537B}",
+        "ValueName": "ParentFolder",
+        "ValueData": "{33E28130-4E1E-4676-835A-98395C3BC3BB}",
+        "Type": "String"
+      },
+      {
+        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{AB5FB87B-7CE2-4F83-915D-550846C9537B}",
+        "ValueName": "RelativePath",
+        "ValueData": "Camera Roll",
+        "Type": "String"
+      },
+      {
+        "Path": "HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{AB5FB87B-7CE2-4F83-915D-550846C9537B}",
+        "ValueName": "Name",
+        "ValueData": "Camera Roll",
+        "Type": "String"
+      },
+      {
+        "Path": "HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{AB5FB87B-7CE2-4F83-915D-550846C9537B}",
+        "ValueName": "Category",
+        "ValueData": 4,
+        "Type": "DWord"
+      },
+      {
+        "Path": "HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{AB5FB87B-7CE2-4F83-915D-550846C9537B}",
+        "ValueName": "InitFolderHandler",
+        "ValueData": "{B26388EA-AD62-430f-AF5C-CFA63BFE94A6}",
+        "Type": "String"
+      },
+      {
+        "Path": "HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{AB5FB87B-7CE2-4F83-915D-550846C9537B}",
+        "ValueName": "ParentFolder",
+        "ValueData": "{33E28130-4E1E-4676-835A-98395C3BC3BB}",
+        "Type": "String"
+      },
+      {
+        "Path": "HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{AB5FB87B-7CE2-4F83-915D-550846C9537B}",
+        "ValueName": "RelativePath",
+        "ValueData": "Camera Roll",
+        "Type": "String"
+      }
+    ]
+  },
+  {
+    "ID": "Clear_Wallpaper_History",
+    "Name": "Clear Desktop Wallpaper History",
+    "MinBuild": 10240,
+    "MaxBuild": 99999,
+    "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Wallpapers",
+    "ValueName": "BackgroundHistoryPath0",
+    "ValueData": "",
+    "Type": "String",
+    "SubKeys": [
+      {
+        "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Wallpapers",
+        "ValueName": "BackgroundHistoryPath1",
+        "ValueData": "",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Wallpapers",
+        "ValueName": "BackgroundHistoryPath2",
+        "ValueData": "",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Wallpapers",
+        "ValueName": "BackgroundHistoryPath3",
+        "ValueData": "",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Wallpapers",
+        "ValueName": "BackgroundHistoryPath4",
+        "ValueData": "",
+        "Type": "String"
+      }
+    ]
+  },
+  {
+    "ID": "Desktop_Cascading_Shortcuts_and_Settings",
+    "Name": "Desktop Cascading Context Menus (Settings & Shortcuts)",
+    "MinBuild": 10240,
+    "MaxBuild": 99999,
+    "Path": "HKCR:\\Directory\\Background\\shell\\Settings",
+    "ValueName": "MUIVerb",
+    "ValueData": "Settings",
+    "Type": "String",
+    "SubKeys": [
+      {
+        "Path": "HKCR:\\Directory\\Background\\shell\\Settings",
+        "ValueName": "ExtendedSubCommandsKey",
+        "ValueData": "Directory\\Background\\shell\\Settings",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\Background\\shell\\Settings\\shell\\Administrative Tools",
+        "ValueName": "MUIVerb",
+        "ValueData": "Administrative Tools",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\Background\\shell\\Settings\\shell\\Administrative Tools\\command",
+        "ValueName": "",
+        "ValueData": "control admintools",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\Background\\shell\\Settings\\shell\\Change Cursor\\command",
+        "ValueName": "",
+        "ValueData": "control main.cpl,,1",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\Background\\shell\\Shortcuts",
+        "ValueName": "MUIVerb",
+        "ValueData": "Shortcuts",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\Background\\shell\\Shortcuts",
+        "ValueName": "ExtendedSubCommandsKey",
+        "ValueData": "Directory\\Background\\shell\\Shortcuts",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\Background\\shell\\Shortcuts\\shell\\god",
+        "ValueName": "MUIVerb",
+        "ValueData": "God Mode",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\Background\\shell\\Shortcuts\\shell\\god\\command",
+        "ValueName": "",
+        "ValueData": "explorer shell:::{ED7BA470-8E54-465E-825C-99712043E01C}",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\Background\\shell\\Shortcuts\\shell\\taskmgr\\command",
+        "ValueName": "",
+        "ValueData": "taskmgr.exe",
+        "Type": "String"
+      }
+    ]
+  },
+  {
+    "ID": "Disable_Cortana",
+    "Name": "Disable Cortana Search",
+    "MinBuild": 10240,
+    "MaxBuild": 99999,
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Windows Search",
+    "ValueName": "AllowCortana",
+    "ValueData": 0,
+    "Type": "DWord"
+  },
+  {
+    "ID": "Edit_With_GIMP",
+    "Name": "Edit Images with GIMP Context Menu",
+    "MinBuild": 7601,
+    "MaxBuild": 99999,
+    "Path": "HKCR:\\SystemFileAssociations\\image\\shell\\edit\\command",
+    "ValueName": "",
+    "ValueData": "\"C:\\Program Files\\GIMP 2\\bin\\gimp-2.8.exe\" \"%1\"",
+    "Type": "ExpandString"
+  },
+  {
+    "ID": "Edit_With_NotepadPlusPlus",
+    "Name": "Edit Text & Scripts with Notepad++ Context Menu",
+    "MinBuild": 7601,
+    "MaxBuild": 99999,
+    "Path": "HKCR:\\SystemFileAssociations\\text\\shell\\edit\\command",
+    "ValueName": "",
+    "ValueData": "\"C:\\Program Files\\Notepad++\\notepad++.exe\" \"%1\"",
+    "Type": "ExpandString",
+    "SubKeys": [
+      {
+        "Path": "HKCR:\\AutoHotkeyScript\\Shell\\Edit\\Command",
+        "ValueName": "",
+        "ValueData": "\"C:\\Program Files\\Notepad++\\notepad++.exe\" \"%1\"",
+        "Type": "String"
+      }
+    ]
+  },
+  {
+    "ID": "Hide_Drive_AB",
+    "Name": "Hide Drives A and B in Explorer",
+    "MinBuild": 7601,
+    "MaxBuild": 99999,
+    "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+    "ValueName": "NoDrives",
+    "ValueData": 3,
+    "Type": "DWord"
+  },
+  {
+    "ID": "Hide_Drive_C",
+    "Name": "Hide Drive C in Explorer",
+    "MinBuild": 7601,
+    "MaxBuild": 99999,
+    "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+    "ValueName": "NoDrives",
+    "ValueData": 4,
+    "Type": "DWord"
+  },
+  {
+    "ID": "Intel_Graphics_Control_Panel",
+    "Name": "Intel Graphics Control Panel Desktop Context Menu",
+    "MinBuild": 7601,
+    "MaxBuild": 99999,
+    "Path": "HKCR:\\Directory\\Background\\shellex\\ContextMenuHandlers\\igfxcui",
+    "ValueName": "",
+    "ValueData": "{3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}",
+    "Type": "String",
+    "SubKeys": [
+      {
+        "Path": "HKCR:\\Directory\\Background\\shellex\\ContextMenuHandlers\\igfxDTCM",
+        "ValueName": "",
+        "ValueData": "{9B5F5829-A529-4B12-814A-E81BCB8D93FC}",
+        "Type": "String"
+      }
+    ]
+  },
+  {
+    "ID": "Open_Configuration_Files_With_Notepad",
+    "Name": "Open Configuration Files (.config, .conf, .cfg, .ini) with Notepad",
+    "MinBuild": 7601,
+    "MaxBuild": 99999,
+    "Path": "HKCR:\\config",
+    "ValueName": "",
+    "ValueData": "Configuration Settings",
+    "Type": "String",
+    "SubKeys": [
+      {
+        "Path": "HKCR:\\config\\DefaultIcon",
+        "ValueName": "",
+        "ValueData": "C:\\WINDOWS\\system32\\shell32.dll,69",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\config\\shell\\open",
+        "ValueName": "MUIVerb",
+        "ValueData": "Open",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\config\\shell\\open\\command",
+        "ValueName": "",
+        "ValueData": "\"C:\\Windows\\System32\\notepad.exe\" \"%1\"",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\.config",
+        "ValueName": "",
+        "ValueData": "config",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\.conf",
+        "ValueName": "",
+        "ValueData": "config",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\.cfg",
+        "ValueName": "",
+        "ValueData": "config",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\.ini",
+        "ValueName": "",
+        "ValueData": "config",
+        "Type": "String"
+      }
+    ]
+  },
+  {
+    "ID": "Restore_Windows_Photo_Viewer",
+    "Name": "Restore Windows Photo Viewer Associations",
+    "MinBuild": 10240,
+    "MaxBuild": 99999,
+    "Path": "HKCU:\\Software\\Classes\\.jpg",
+    "ValueName": "",
+    "ValueData": "PhotoViewer.FileAssoc.Tiff",
+    "Type": "String",
+    "SubKeys": [
+      {
+        "Path": "HKCU:\\Software\\Classes\\.jpeg",
+        "ValueName": "",
+        "ValueData": "PhotoViewer.FileAssoc.Tiff",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCU:\\Software\\Classes\\.gif",
+        "ValueName": "",
+        "ValueData": "PhotoViewer.FileAssoc.Tiff",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCU:\\Software\\Classes\\.png",
+        "ValueName": "",
+        "ValueData": "PhotoViewer.FileAssoc.Tiff",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCU:\\Software\\Classes\\.bmp",
+        "ValueName": "",
+        "ValueData": "PhotoViewer.FileAssoc.Tiff",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCU:\\Software\\Classes\\.tiff",
+        "ValueName": "",
+        "ValueData": "PhotoViewer.FileAssoc.Tiff",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCU:\\Software\\Classes\\.ico",
+        "ValueName": "",
+        "ValueData": "PhotoViewer.FileAssoc.Tiff",
+        "Type": "String"
+      }
+    ]
+  },
+  {
+    "ID": "Saved_Pictures_Folder",
+    "Name": "Saved Pictures Folder Registration",
+    "MinBuild": 10240,
+    "MaxBuild": 99999,
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{3B193882-D3AD-4eab-965A-69829D1FB59F}",
+    "ValueName": "Name",
+    "ValueData": "SavedPictures",
+    "Type": "String",
+    "SubKeys": [
+      {
+        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{3B193882-D3AD-4eab-965A-69829D1FB59F}",
+        "ValueName": "Category",
+        "ValueData": 4,
+        "Type": "DWord"
+      },
+      {
+        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{3B193882-D3AD-4eab-965A-69829D1FB59F}",
+        "ValueName": "ParentFolder",
+        "ValueData": "{33E28130-4E1E-4676-835A-98395C3BC3BB}",
+        "Type": "String"
+      },
+      {
+        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{3B193882-D3AD-4eab-965A-69829D1FB59F}",
+        "ValueName": "RelativePath",
+        "ValueData": "Saved Pictures",
+        "Type": "String"
+      },
+      {
+        "Path": "HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{3B193882-D3AD-4eab-965A-69829D1FB59F}",
+        "ValueName": "Name",
+        "ValueData": "SavedPictures",
+        "Type": "String"
+      },
+      {
+        "Path": "HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{3B193882-D3AD-4eab-965A-69829D1FB59F}",
+        "ValueName": "Category",
+        "ValueData": 4,
+        "Type": "DWord"
+      },
+      {
+        "Path": "HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{3B193882-D3AD-4eab-965A-69829D1FB59F}",
+        "ValueName": "ParentFolder",
+        "ValueData": "{33E28130-4E1E-4676-835A-98395C3BC3BB}",
+        "Type": "String"
+      },
+      {
+        "Path": "HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions\\{3B193882-D3AD-4eab-965A-69829D1FB59F}",
+        "ValueName": "RelativePath",
+        "ValueData": "Saved Pictures",
+        "Type": "String"
+      }
+    ]
+  },
+  {
+    "ID": "Set_As_Desktop_Background",
+    "Name": "Set as Desktop Background Context Menu",
+    "MinBuild": 7601,
+    "MaxBuild": 99999,
+    "Path": "HKCR:\\SystemFileAssociations\\.bmp\\Shell\\setdesktopwallpaper",
+    "ValueName": "",
+    "ValueData": "@%SystemRoot%\\system32\\stobject.dll,-417",
+    "Type": "ExpandString",
+    "SubKeys": [
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.bmp\\Shell\\setdesktopwallpaper",
+        "ValueName": "MultiSelectModel",
+        "ValueData": "Player",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.bmp\\Shell\\setdesktopwallpaper",
+        "ValueName": "NeverDefault",
+        "ValueData": "",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.bmp\\Shell\\setdesktopwallpaper",
+        "ValueName": "SuppressionSlapiPolicy",
+        "ValueData": "ChangeDesktopBackground-Enabled",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.bmp\\Shell\\setdesktopwallpaper\\Command",
+        "ValueName": "",
+        "ValueData": "%SystemRoot%\\Explorer.exe",
+        "Type": "ExpandString"
+      },
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.bmp\\Shell\\setdesktopwallpaper\\Command",
+        "ValueName": "DelegateExecute",
+        "ValueData": "{ff609cc7-d34d-4049-a1aa-2293517ffcc6}",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.dib\\Shell\\setdesktopwallpaper",
+        "ValueName": "",
+        "ValueData": "@%SystemRoot%\\system32\\stobject.dll,-417",
+        "Type": "ExpandString"
+      },
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.dib\\Shell\\setdesktopwallpaper\\Command",
+        "ValueName": "DelegateExecute",
+        "ValueData": "{ff609cc7-d34d-4049-a1aa-2293517ffcc6}",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.jpg\\Shell\\setdesktopwallpaper",
+        "ValueName": "",
+        "ValueData": "@%SystemRoot%\\system32\\stobject.dll,-417",
+        "Type": "ExpandString"
+      },
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.jpg\\Shell\\setdesktopwallpaper\\Command",
+        "ValueName": "DelegateExecute",
+        "ValueData": "{ff609cc7-d34d-4049-a1aa-2293517ffcc6}",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.png\\Shell\\setdesktopwallpaper",
+        "ValueName": "",
+        "ValueData": "@%SystemRoot%\\system32\\stobject.dll,-417",
+        "Type": "ExpandString"
+      },
+      {
+        "Path": "HKCR:\\SystemFileAssociations\\.png\\Shell\\setdesktopwallpaper\\Command",
+        "ValueName": "DelegateExecute",
+        "ValueData": "{ff609cc7-d34d-4049-a1aa-2293517ffcc6}",
+        "Type": "String"
+      }
+    ]
+  },
+  {
+    "ID": "Enable_System_Hibernation",
+    "Name": "Enable System Hibernation",
+    "MinBuild": 7601,
+    "MaxBuild": 99999,
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Power",
+    "ValueName": "HibernateEnabled",
+    "ValueData": 1,
+    "Type": "DWord"
+  },
+  {
+    "ID": "Take_Ownership_Context_Menu",
+    "Name": "Take Ownership Context Menu",
+    "MinBuild": 7601,
+    "MaxBuild": 99999,
+    "Path": "HKCR:\\*\\shell\\runas",
+    "ValueName": "",
+    "ValueData": "Take Ownership",
+    "Type": "String",
+    "SubKeys": [
+      {
+        "Path": "HKCR:\\*\\shell\\runas",
+        "ValueName": "NoWorkingDirectory",
+        "ValueData": "",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\*\\shell\\runas\\command",
+        "ValueName": "",
+        "ValueData": "cmd.exe /c takeown /f \"%1\" && icacls \"%1\" /grant administrators:F",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\*\\shell\\runas\\command",
+        "ValueName": "IsolatedCommand",
+        "ValueData": "cmd.exe /c takeown /f \"%1\" && icacls \"%1\" /grant administrators:F",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\shell\\runas",
+        "ValueName": "",
+        "ValueData": "Take Ownership",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\shell\\runas",
+        "ValueName": "NoWorkingDirectory",
+        "ValueData": "",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\shell\\runas\\command",
+        "ValueName": "",
+        "ValueData": "cmd.exe /c takeown /f \"%1\" /r /d y && icacls \"%1\" /grant administrators:F /t",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\shell\\runas\\command",
+        "ValueName": "IsolatedCommand",
+        "ValueData": "cmd.exe /c takeown /f \"%1\" /r /d y && icacls \"%1\" /grant administrators:F /t",
+        "Type": "String"
+      }
+    ]
+  },
+  {
+    "ID": "Toggle_Hidden_Items_Menu",
+    "Name": "Show Hidden Files Context Menu",
+    "MinBuild": 17134,
+    "MaxBuild": 99999,
+    "Path": "HKCR:\\Directory\\Background\\shell\\Windows.ShowHiddenFiles",
+    "ValueName": "ExplorerCommandHandler",
+    "ValueData": "{f7300245-1f4b-41ba-8948-6fd392064494}",
+    "Type": "String",
+    "SubKeys": [
+      {
+        "Path": "HKCR:\\Directory\\Background\\shell\\Windows.ShowHiddenFiles",
+        "ValueName": "CommandStateSync",
+        "ValueData": "",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\Background\\shell\\Windows.ShowHiddenFiles",
+        "ValueName": "Description",
+        "ValueData": "@shell32.dll,-37573",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\Background\\shell\\Windows.ShowHiddenFiles",
+        "ValueName": "Icon",
+        "ValueData": "imageres.dll,-5314",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Directory\\Background\\shell\\Windows.ShowHiddenFiles",
+        "ValueName": "MUIVerb",
+        "ValueData": "@shell32.dll,-37572",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Folder\\shell\\Windows.ShowHiddenFiles",
+        "ValueName": "ExplorerCommandHandler",
+        "ValueData": "{f7300245-1f4b-41ba-8948-6fd392064494}",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Folder\\shell\\Windows.ShowHiddenFiles",
+        "ValueName": "CommandStateSync",
+        "ValueData": "",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Folder\\shell\\Windows.ShowHiddenFiles",
+        "ValueName": "Description",
+        "ValueData": "@shell32.dll,-37573",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Folder\\shell\\Windows.ShowHiddenFiles",
+        "ValueName": "Icon",
+        "ValueData": "imageres.dll,-5314",
+        "Type": "String"
+      },
+      {
+        "Path": "HKCR:\\Folder\\shell\\Windows.ShowHiddenFiles",
+        "ValueName": "MUIVerb",
+        "ValueData": "@shell32.dll,-37572",
+        "Type": "String"
+      }
+    ]
+  }
+]
