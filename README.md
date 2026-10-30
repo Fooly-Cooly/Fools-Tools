@@ -1,4 +1,4 @@
-# FoolsTools
+# Fools-Tools
 
 A versatile, lightweight, and portable Windows utility suite featuring modern CLI wrappers, pure terminal administration tools, media processors, and an automated regression test harness.
 
@@ -81,7 +81,7 @@ Code_Tool_FoolsTools/
 
 1. **Clone or Download the Repository**:
    ```cmd
-   git clone https://github.com/Fooly-Cooly/FoolsTools.git
+   git clone https://github.com/Fooly-Cooly/Fools-Tools.git
    ```
 
 2. **Add to PATH**:
